@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Persona Web Page Example</title>
+</head>
+<body>
+    <!-- Main heading with name/website title -->
+    <h1>John Doe's Personal Website</h1>
+    
+    <!-- Profile Image -->
+    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe's Profile Picture" width="200" height="200">
+    
+    <!-- Secondary heading and introduction -->
+    <h2>About Me</h2>
+    <p>Hello! I'm John, a passionate web developer with a love for creating amazing digital experiences. Welcome to my personal website where I share my journey, interests, and aspirations.</p>
+    
+    <!-- Unordered list of hobbies -->
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Web Development</li>
+        <li>Photography</li>
+        <li>Hiking and Nature Walks</li>
+        <li>Reading Technology Blogs</li>
+        <li>Playing Guitar</li>
+    </ul>
+    
+    <!-- Ordered list of goals -->
+    <h2>My Goals</h2>
+    <ol>
+        <li>Master modern JavaScript frameworks</li>
+        <li>Contribute to open source projects</li>
+        <li>Launch my own tech startup</li>
+        <li>Travel to 10 new countries</li>
+        <li>Learn a new programming language each year</li>
+    </ol>
+    
+    <!-- External link -->
+    <h2>Connect With Me</h2>
+    <p>Check out my work and connect with me on <a href="https://github.com" target="_blank">GitHub</a> to see my latest projects!</p>
+    
+    <!-- Video Section -->
+    <h2>Featured Video</h2>
+    <video width="400" height="300" controls>
+        <source src="sample-video.mp4" type="video/mp4">
+        <source src="sample-video.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    
+    <!-- Audio Section -->
+    <h2>Background Music</h2>
+    <audio controls>
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        <source src="sample-audio.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Contact Form -->
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject"><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" placeholder="Enter your message here..."></textarea><br><br>
+        
+        <label for="priority">Priority:</label><br>
+        <select id="priority" name="priority">
+            <option value="low">Low</option>
+            <option value="medium" selected>Medium</option>
+            <option value="high">High</option>
+        </select><br><br>
+        
+        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+        <label for="newsletter">Subscribe to newsletter</label><br><br>
+        
+        <input type="submit" value="Send Message">
+        <input type="reset" value="Clear Form">
+    </form>
+</body>
+</html>
