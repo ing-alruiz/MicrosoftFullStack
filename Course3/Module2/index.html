@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid & Flexbox Demo - Modern Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Grid Container -->
+    <div class="grid-container">
+        
+        <!-- Header using Flexbox -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>ModernWeb</h1>
+                </div>
+                <nav class="navigation">
+                    <ul class="nav-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button class="btn-search">🔍</button>
+                    <button class="btn-menu">☰</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section using Flexbox -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to the Future of Web Design</h2>
+                <p>Experience the power of CSS Grid and Flexbox working together to create stunning, responsive layouts.</p>
+                <div class="hero-actions">
+                    <button class="btn-primary">Get Started</button>
+                    <button class="btn-secondary">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="placeholder-image">🖼️</div>
+            </div>
+        </section>
+
+        <!-- Features Section using CSS Grid -->
+        <section class="features">
+            <h2 class="section-title">Our Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Fast Performance</h3>
+                    <p>Lightning-fast loading times with optimized code and modern techniques.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>Perfect adaptation to all screen sizes using CSS Grid and Flexbox.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Beautiful UI</h3>
+                    <p>Stunning user interfaces that engage and delight your users.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Easy Maintenance</h3>
+                    <p>Clean, semantic code that's easy to maintain and update.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Secure</h3>
+                    <p>Built with security best practices and modern standards.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Modern Tech</h3>
+                    <p>Using the latest web technologies and development practices.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section using Mixed Grid and Flexbox -->
+        <section class="portfolio">
+            <h2 class="section-title">Our Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item portfolio-large">
+                    <div class="portfolio-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>Modern shopping experience</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-content">
+                        <h3>Mobile App</h3>
+                        <p>Cross-platform solution</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-content">
+                        <h3>Dashboard</h3>
+                        <p>Analytics platform</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">D3.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item portfolio-wide">
+                    <div class="portfolio-content">
+                        <h3>Corporate Website</h3>
+                        <p>Professional business presence</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section using Flexbox -->
+        <section class="stats">
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sidebar using Flexbox -->
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <h3>Latest News</h3>
+                <div class="news-item">
+                    <h4>CSS Grid Level 2</h4>
+                    <p>New features coming to CSS Grid that will revolutionize web layouts.</p>
+                    <small>2 days ago</small>
+                </div>
+                <div class="news-item">
+                    <h4>Flexbox Best Practices</h4>
+                    <p>Learn the most effective ways to use Flexbox in your projects.</p>
+                    <small>1 week ago</small>
+                </div>
+                <div class="news-item">
+                    <h4>Responsive Design Tips</h4>
+                    <p>Essential techniques for creating mobile-first designs.</p>
+                    <small>2 weeks ago</small>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Footer using Flexbox -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#web-design">Web Design</a></li>
+                        <li><a href="#development">Development</a></li>
+                        <li><a href="#consulting">Consulting</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Stay updated with our latest news and offers.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ModernWeb. All rights reserved. | Built with CSS Grid & Flexbox</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

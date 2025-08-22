@@ -1,0 +1,50 @@
+/* Reset margins and paddings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Choose a font */
+    line-height: 1.6;
+}
+
+/* Header and Footer Styling */
+header, footer {
+    background-color: #3f3f3f; /* Header/Footer background color */
+    color: whitesmoke; /* Header/Footer text color */
+    text-align: center;
+    padding: 10px 0; /* Header/Footer padding */
+}
+
+/* Navigation Styling */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3f3f3f; /* Navigation bar background color */
+    padding: 10px 0; /* Navigation bar padding */
+}
+
+/* Main Content Layout */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+aside {
+    width: 250px; /* Sidebar width */
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
