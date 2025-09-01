@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio | Full Stack Projects & Skills</title>
+    <meta name="description" content="Portfolio of a full stack developer showcasing web projects, skills, and contact information. Learn more about my experience and get in touch.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <!-- Header Section -->
+        <header>
+          <nav role="navigation" aria-label="Portfolio Navigation">
+            <ul>
+              <li><a href="#about-me" tabindex="0">About Me</a></li>
+              <li><a href="#projects" tabindex="0">Projects</a></li>
+              <li><a href="#skills" tabindex="0">Skills</a></li>
+              <li><a href="#contact" tabindex="0">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <!-- About Me Section -->
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>
+                Hi, I'm a passionate developer with experience in building web applications using modern technologies. I enjoy solving problems and learning new skills to improve my craft.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="project-filters" style="text-align:center;margin-bottom:1.5rem;">
+                <button onclick="filterProjects('all')">All</button>
+                <button onclick="filterProjects('web')">Web</button>
+                <button onclick="filterProjects('app')">App</button>
+            </div>
+            <div class="projects-grid">
+                <article data-category="web">
+                    <figure>
+                        <img src="https://images.pexels.com/photos/7735630/pexels-photo-7735630.jpeg?auto=compress&cs=tinysrgb&w=4768&fit=max" alt="Portfolio website example: black-framed eyeglasses on white paper">
+                        <figcaption>Project 1: Portfolio Website</figcaption>
+                    </figure>
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio site showcasing my work and skills.</p>
+                </article>
+                <article data-category="app">
+                    <figure>
+                        <img src="https://images.pexels.com/photos/7430340/pexels-photo-7430340.jpeg?auto=compress&cs=tinysrgb&w=4082&fit=max" alt="Task manager app example: people doing high five in office">
+                        <figcaption>Project 2: Task Manager App</figcaption>
+                    </figure>
+                    <h3>Task Manager App</h3>
+                    <p>A web application to manage daily tasks efficiently.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git</li>
+                <li>REST APIs</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" tabindex="0">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Microsoft Full Stack Course</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
