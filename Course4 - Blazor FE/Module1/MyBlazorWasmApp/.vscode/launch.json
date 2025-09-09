@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Blazor Server",
+            "type": "blazorwasm",
+            "request": "launch",
+            "hosted": true,
+            "program": "${workspaceFolder}/bin/Debug/net9.0/MyBlazorWasmApp.dll",
+            "cwd": "${workspaceFolder}",
+            "browser": "edge",
+            "trace": true,
+            "webRoot": "${workspaceFolder}/wwwroot"
+        },
+        {
+            "name": "Attach to Blazor",
+            "type": "blazorwasm",
+            "request": "attach",
+            "url": "http://localhost:5177"
+        }
+    ]
+}

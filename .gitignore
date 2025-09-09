@@ -392,3 +392,11 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Blazor specific
+wwwroot/dist/
+wwwroot/_framework/
+**/*.blazor.css
+**/*.rz.scp.css
+obj/staticwebassets.pack.sentinel
+.blazor/
